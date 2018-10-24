@@ -56,7 +56,7 @@ set softtabstop=4
 " 快捷键 i 开/关缩进可视化
 ":nmap <silent> <Leader>g  <Plug>IndentGuidesToggle
 
-inoremap ' ''<ESC>i
+"inoremap ' ''<ESC>i
 inoremap " ""<ESC>i
 inoremap ( ()<ESC>i
 ""inoremap [ []<ESC>i
