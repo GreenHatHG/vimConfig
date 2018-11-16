@@ -61,5 +61,8 @@ inoremap " ""<ESC>i
 inoremap ( ()<ESC>i
 ""inoremap [ []<ESC>i
 inoremap { {<CR>}<ESC>O
+inoremap < <><ESC>i
 
 set gcr=n-v-c:ver25-Cursor/lCursor,ve:ver35-Cursor,o:hor50-Cursor,i-ci:ver25-Cursor/lCursor
+
+set t_Co=256
