@@ -63,7 +63,6 @@ inoremap ( ()<ESC>i
 inoremap { {}<ESC>i
 inoremap {<CR> {<CR>}<ESC>O
 ""inoremap {<CR> {<CR>}<ESC>O<TAB>
-
 set gcr=n-v-c:ver25-Cursor/lCursor,ve:ver35-Cursor,o:hor50-Cursor,i-ci:ver25-Cursor/lCursor
 
 set t_Co=256
