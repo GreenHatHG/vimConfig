@@ -61,10 +61,13 @@ inoremap " ""<ESC>i
 inoremap ( ()<ESC>i
 ""inoremap [ []<ESC>i
 inoremap { {}<ESC>i
-inoremap {<CR> {<CR>}<ESC>O<TAB>
+inoremap {<CR> {<CR>}<ESC>O
+""inoremap {<CR> {<CR>}<ESC>O<TAB>
 
 set gcr=n-v-c:ver25-Cursor/lCursor,ve:ver35-Cursor,o:hor50-Cursor,i-ci:ver25-Cursor/lCursor
 
 set t_Co=256
 
-
+set fileencodings=utf-8,gb2312,gb18030,gbk,ucs-bom,cp936,latin1
+set enc=utf8
+set fencs=utf8,gbk,gb2312,gb18030
